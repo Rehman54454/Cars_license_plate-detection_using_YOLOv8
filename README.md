@@ -22,13 +22,14 @@ Download and install Tesseract-OCR from here.
 Update the pytesseract.pytesseract.tesseract_cmd path in the code to the location of the Tesseract executable on your machine.
 
 **Model:**
-Download trained model trainable weights to load for real time testing from [here](https://github.com/tesseract-ocr/tesseract).
+Download trained model trainable weights to load for real time testing from [here](https://github.com/Rehman54454/Cars_license_plate-detection_using_YOLOv8/blob/main/License_plate_detection.pth).
 
 **Datasets**
-You can download and check dataset from [here](https://github.com/tesseract-ocr/tesseract).
+You can download and check dataset from [here](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4).
 
 **How to Run:**
 First download the Requirement.txt from [here](https://github.com/Rehman54454/Cars_license_plate-detection_using_YOLOv8/blob/main/Requirements.txt).
+
 Replace the img path with your input image file in main.py file code.
 Replace the YOLO model path (license_plate_detector.pt) with your trained model file in min.py code.
 Execute the script. Detected license plates and their extracted text will appear on the displayed image.
