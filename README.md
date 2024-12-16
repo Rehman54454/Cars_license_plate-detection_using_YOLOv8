@@ -13,7 +13,7 @@ OpenCV is an open-source computer vision library that allows easy image processi
 
 **Tesseract OCR:**
 Tesseract OCR is an optical character recognition engine used to extract text from images. In this project, it reads and processes cropped regions of license plates to extract the alphanumeric text.
-You can download it from [here]([https://github.com/tesseract-ocr/tesseract]).
+You can download it from [here](https://github.com/tesseract-ocr/tesseract).
 
 **Install YOLOv8 and dependencies:**
 pip install ultralytics opencv-python pytesseract
@@ -22,13 +22,13 @@ Download and install Tesseract-OCR from here.
 Update the pytesseract.pytesseract.tesseract_cmd path in the code to the location of the Tesseract executable on your machine.
 
 **Model:**
-Download trained model trainable weights to load for real time testing from [here]([https://github.com/tesseract-ocr/tesseract]).
+Download trained model trainable weights to load for real time testing from [here](https://github.com/tesseract-ocr/tesseract).
 
 **Datasets**
-You can download and check dataset from [here]([https://github.com/tesseract-ocr/tesseract]).
+You can download and check dataset from [here](https://github.com/tesseract-ocr/tesseract).
 
 **How to Run:**
-First download the Requirement.txt from [here]([https://github.com/tesseract-ocr/tesseract]).
+First download the Requirement.txt from [here](https://github.com/tesseract-ocr/tesseract).
 Replace the img path with your input image file in main.py file code.
 Replace the YOLO model path (license_plate_detector.pt) with your trained model file in min.py code.
 Execute the script. Detected license plates and their extracted text will appear on the displayed image.
