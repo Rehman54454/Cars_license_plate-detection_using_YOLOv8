@@ -22,10 +22,10 @@ Download and install Tesseract-OCR from here.
 Update the pytesseract.pytesseract.tesseract_cmd path in the code to the location of the Tesseract executable on your machine.
 
 **Model:**
-Download trained model trainable weights to load for real time testing from here.
+Download trained model trainable weights to load for real time testing from [here]([[https://github.com/tesseract-ocr/tesseract](https://github.com/Rehman54454/Cars_license_plate-detection_using_YOLOv8/blob/main/License_plate_detection.pth)]).
 
 **Datasets**
-You can download and check dataset from [here]([https://github.com/tesseract-ocr/tesseract](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4)).
+You can download and check dataset from [here]([https://github.com/tesseract-ocr/tesseract]).
 
 **How to Run:**
 First download the Requirement.txt from here.
